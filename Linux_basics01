@@ -15,22 +15,63 @@
 ->  Top 500 supercomputers run on Linux!
 
 Why use Linux?
-
 windows
 • For a Windows server, you need to purchase the license and the expenditure increases according to the number of users
 • Not many customization options available
 • Windows is vulnerable to viruses and malware threats. A powerful anti virus software is a need
-
 Linux 
 • With Linux, license is free, installing software's is free and you can install Linux in any number of machines you want
 • There are a lot of Linux distributions and you can choose one from it
 • More secure than Windows and viruses can’t easily break the kernel
 
 Linux Distributions
-
 debian
 fedora
 ubuntu
-centOS
+centOS Nowadays, we use a lot of GUI based Linux distributions like CentOS. In these you have a terminal to contact the shell
 RadHat Enterprixe Linux
 SUSE
+
+
+Linux Architecture
+1. hardware
+2. Kerel 
+3. shell ,pwd, ls,grep, cp 
+4. Applications , DBMS, Utilites, mail
+5. User
+
+
+Kernel is commucate the hardWare
+shell interface the kernel and user
+
+shell 
+A Shell interprets the commands you have entered using a keyboard and sends it to the OS to perform them
+       
+                                           Shell sending the
+                                             commands to OS 
+   KeyBoard is unput to the shell                                          kernel
+                                          OS is sending it back
+                                              to the Shell  
+
+
+Top Shells in Linux
+  bash
+  Zsh
+  fish 
+
+
+  command 
+    pwd 
+
+
+Basics of Kernel
+    A Linux Kernel is a UNIX like OS kernel. It is a Computer Program which is the core interface which connects the Hardware components to the Software processes
+
+Top operations performed by a Kernel 
+ 1. Resource Management Decides which process gets a resource for an operation
+2. Memory management Kernel has complete access to system memory and must efficiently manage it and allow memory access to processes
+3. Device management If we connect devices such as a printer or a pen drive, kernel detects it and helps the system establish connection with those peripherals
+4. System calls This is an interface between a process and the operating system. When the process does not have permissions to access a resource, a system callprovides it without the process accessing the resource directly
+
+
+
