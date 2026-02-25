@@ -1,4 +1,4 @@
-linux-learning-journey/
+```linux-learning-journey/
 │
 ├── 01_linux_basics.md
 ├── 02_file_management.md
@@ -12,3 +12,4 @@ linux-learning-journey/
 ├── 10_lamp_stack_setup.md
 ├── troubleshooting_scenarios.md
 └── README.md
+```
