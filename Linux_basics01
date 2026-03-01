@@ -106,6 +106,7 @@ Top operations performed by a Kernel
           whoami  - username
           date
          history 
+         history -c used to erase the command-line history
          clear
          touch 1.text(creat the file) or  touch 1.text 2.text(creat the mul file) 
          rm file_name - delete
@@ -223,7 +224,22 @@ Top operations performed by a Kernel
        expr length $a
        man expr
        ------------------------------------------------------------------------------------------------------------------
-       
+       Header file of shell script -using shebang(#!)
+       #! - this represnts which interpretr a script should be interpreted with
+       #!/bin/bash -this is a header command which represent it a bash/shell script
+
+        fist want create file 
+        nano 1.sh - open 
+           #!/bin/bash
+           echo this is a sample script
+              ctr+o + enter - to save the text file
+              ctr+x - to exit the nano 
+           sh 1.sh
+           bash 1.sh
+        
+       ------------------------------------------------------------------------------------------------------------------
+
+      
        
        
        
