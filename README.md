@@ -1,8 +1,8 @@
 ```linux-learning-journey/
 │
-├── 01_linux_basics.md
-├── 02_file_management.md
-├── 03_process_management.md
+├── 01_linux_basics
+├── 02_file_management
+├── 03_process_management
 ├── 04_user_and_permission_management.md
 ├── 05_networking_basics.md
 ├── 06_package_management.md
