@@ -56,6 +56,29 @@ three types of owners
          other/process Even processes need permission to access specific files and locations
 
 
+create the user
+Sudo useradd username
+Sudo useradd kramesh1
+cd ..
+ls
+will display two folder
+cd kramesh1
+sudo  kramesh1
+
+
+create the groups
+sudo groupadd grpl
+groups
+  $ sudo cat /etc/shadow
+how toget super previlages
+  $ sudo su
+
+
+
+
+
+
+
 
 -----------------------------------------------------------------------------------------------------------
     
