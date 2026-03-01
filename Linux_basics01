@@ -5,7 +5,7 @@
 -> Linux is a Unix like OS developed by Linus Torvalds and thousands of opensource contributors
 -> redhat  is companey to distrubution companey by Luinx
 -> Linux is an Operating system. It is reliable and secure than others; Also it is completely opensource
-
+------------------------------------------------------------------------------------------------------------------
 -> Linux is everywhere!
     Linux is in your smartphones. 85% of all smartphones are based on Linux.
     Your car uses Linux; Especially self driving cars
@@ -13,7 +13,7 @@
 
 ->   is secure and realable so it is faster
 ->  Top 500 supercomputers run on Linux!
-
+------------------------------------------------------------------------------------------------------------------
 -->Why use Linux?
     windows
     • For a Windows server, you need to purchase the license and the expenditure increases according to the number of users
@@ -32,7 +32,7 @@
     RadHat Enterprixe Linux
     SUSE
 
-
+------------------------------------------------------------------------------------------------------------------
 --> Linux Architecture
   1. hardware
   2. Kerel 
@@ -40,10 +40,10 @@
   4. Applications , DBMS, Utilites, mail
   5. User
 
-
+------------------------------------------------------------------------------------------------------------------
 --> Kernel is commucate the hardWare
 shell interface the kernel and user
-
+------------------------------------------------------------------------------------------------------------------
 --> shell 
 A Shell interprets the commands you have entered using a keyboard and sends it to the OS to perform them
        
@@ -52,13 +52,13 @@ A Shell interprets the commands you have entered using a keyboard and sends it t
    KeyBoard is unput to the shell                                          kernel
                                           OS is sending it back
                                               to the Shell  
-
+------------------------------------------------------------------------------------------------------------------
 
 --> Top Shells in Linux
   bash
   Zsh
   fish 
-
+------------------------------------------------------------------------------------------------------------------
 
 
 --> Basics of Kernel
@@ -70,7 +70,7 @@ Top operations performed by a Kernel
 3. Device management. If we connect devices such as a printer or a pen drive, kernel detects it and helps the system establish connection with those peripherals
 4. System calls. This is an interface between a process and the operating system. When the process does not have permissions to access a resource, a system callprovides it without the process accessing the resource directly
 
-
+------------------------------------------------------------------------------------------------------------------
 
 --> Set of guest additions to make the screen larger for administration 
   open terminal in centOs8
@@ -100,54 +100,139 @@ Top operations performed by a Kernel
                       password(admin)
                       clear
                       rebort
-
+------------------------------------------------------------------------------------------------------------------
 ->  Basic Lunix command
-   pwd     - Present working directory
-   whoami  - username
-   date
-  history 
-  clear
-  touch 1.text(creat the file) or  touch 1.text 2.text(creat the mul file) 
-  rm file_name - delete
-   ls  - display file name
-   nano 1.text - to open text editor
-    Enter the text
-    ctr+o + enter - to save the text file
-    ctr+x - to exit the nano 
-  cat 1.text
-  touch 2.text
-  cp 1.text 2.text  - (to copy the text to one to two )
-  cat 2.text
-  mv 1.text 3.text  - moving the file 1 to 3  1.text is deleted
-  mv 3.text 1.text   - moving the file 3 to 1  3.text is deleted
-  ls - check the files
-       ex file_naem (1.txt ...etc) directorName(Desktop)
-  cd directorName - change director name
-  cd .. - back 
-  cd / - full back
-  cd /home/user_admin_name(root)  
-  mkdir director_name   - create dirName
-  cd /director_name/ - log in dir 
-      cd .. first exit dir then delete
-      rmdir director_name - delete
-      ls
-      rm file_name - delete or rm *file_name - * any charactor delete
-      ls
-  sudo - is the user root
-  alias p="Command name" - pwd is p 
-  who 
-  w
-  man  - the commad help is ex (man w ,man who, man whoami, man grep )  q  - for quite
-
-
-
-
-
- 
-
-    
-
+         pwd or !pw    - Present working directory
+          whoami  - username
+          date
+         history 
+         clear
+         touch 1.text(creat the file) or  touch 1.text 2.text(creat the mul file) 
+         rm file_name - delete
+          ls  - display file name
+          nano 1.text - to open text editor
+           Enter the text
+           ctr+o + enter - to save the text file
+           ctr+x - to exit the nano 
+         cat 1.text
+         touch 2.text
+         cp 1.text 2.text  - (to copy the text to one to two )
+         cat 2.text
+         mv 1.text 3.text  - moving the file 1 to 3  1.text is deleted
+         mv 3.text 1.text   - moving the file 3 to 1  3.text is deleted
+         ls - check the files
+              ex file_naem (1.txt ...etc) directorName(Desktop)
+         cd directorName - change director name
+         cd .. - back 
+         cd / - full back
+         cd /home/user_admin_name(root)  
+         mkdir director_name   - create dirName
+         cd /director_name/ - log in dir 
+             cd .. first exit dir then delete
+             rmdir director_name - delete
+             ls
+             rm file_name - delete or rm *file_name - * any charactor delete
+             ls
+         sudo - is the user root
+         alias p="Command name" - pwd is p 
+         who 
+         w
+         man  - the commad help is ex (man w ,man who, man whoami, man grep )  q  - for quite
+       
+       ------------------------------------------------------------------------------------------------------------------
+       
+       echo [Text] 
+       echo hello world
+       x=23
+       echo $x
+       ls will desplay the directory
+       echo*
+       
+       arithmetic operation
+       x=100
+       y-100
+       echo $((x+y)) 
+          -- 200
+       echo $x+$y
+          100+100
+       
+        -n gives the output a new line
+             echo -n hello world
+        -e this will allow usage of backslash escapes
+        \b remove the space b/w text
+             echo -e 'hello world \btoday is greate Day'
+         \n print text in a new line
+               echo -e 'hello world \ntoday is greate Day \n are you'
+        \t does  a horizontal tab
+           echo -e 'hello world \ttoday is greate Day \tare you'
+         \v does a verticla tab
+           echo -e 'hello world \ttoday is greate Day \vare you'
+           echo -e 'hello world \vtoday is greate Day \vare you'
         
+       ------------------------------------------------------------------------------------------------------------------
+       
+       Set and Unset a variable
+       
+       set is build-in function it is command to set variables
+       export command is used to create enviromnet
+       unset  is build-in function it is command to unset variables
+       
+       
+       operation 
+       
+       x=45
+       echo $x
+       bash - to move another sheell --------
+       x is empty move to another dir
+       again x = 4500
+       echo $x
+       exit to exist to previous dir --------
+       
+       export x is become to global variable
+       echo $x
+       set  -will see the very function
+       set +o  - will see the operation
+       set +o history - will see the operation
+       set -o  - will see the operation
+       man set
+         q quite
+       
+       unset x 
+       env - is set enviroment
+       ------------------------------------------------------------------------------------------------------------------
+       
+       Expr expression its command expr computes a give expression and displays the output
+       
+       $ expr expression
+       expr --version
+       expr 1 + 2
+       expr 1 - 2
+       expr 1 \* 2 
+       expr 1 \/ 2 
+       expr 1 \% 2  
+       expr 1 = 2  and oper
+       expr 1 | 2  or
+       expr 1 \< 2  
+       expr 1 \<= 2  
+       expr 1 \| 2 
+       expr 1 \> 2  
+       expr 1 \>= 2  
+       expr 1 \>| 2 
+       man expr
+       a= hello
+       expr length $a
+       man expr
+       ------------------------------------------------------------------------------------------------------------------
+       
+       
+       
+       
+       
+        
+       
+           
+       
+               
 
  
       
