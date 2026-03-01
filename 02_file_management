@@ -10,4 +10,54 @@ Text editors & Creating a file
     popular 
     vim
     emacs
-Vim stands for an improved version of the vi text editor command
+  
+   Vim stands for an improved version of the vi text editor command
+            • It's super lightweight
+            •It is very easy to open and edit a file
+            • If you boot a Linux system, Vim is most possibly installed
+
+      vim modes
+           command mode
+           insert mode
+           command line mode
+           visual mode
+     vim command
+      i ,O ,o ,a ,A
+
+to exit control x
+or q:
+
+
+syntax
+        create 
+         Vim file_name
+         enter i 
+         enter text and  enter ESC will stop text enter
+         shit + : 
+           q for quite
+           wq save quite
+        
+         Vim file_name
+         enter V 
+         change text and enter ESCap will stop text enter
+         shit + : 
+           q for quite
+           wq save quite
+         
+        to check save the text 
+        cat file_name
+
+-----------------------------------------------------------------------------------------------------------
+file permission 
+
+three types of owners
+         users  The purpose of Users and Groups are for Access and Permissions.
+         groups Every user has their own directory, usually within /home/username
+         other/process Even processes need permission to access specific files and locations
+
+
+
+-----------------------------------------------------------------------------------------------------------
+    
+       
+ 
