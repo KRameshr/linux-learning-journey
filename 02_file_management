@@ -73,10 +73,69 @@ groups
 how toget super previlages
   $ sudo su
 
+-----------------------------------------------------------------------------------------------------------
 
+chown 
+touch file1.txt
+ls
+ls -l file1.txt
+chmod u+x file1.txt
+ls -l file1.txt
+chmod gg+x file1.txt
+ls -l file1.tx
+
+chmod g-w file1.txt
+ls -l file1.tx
+
+chmod o-r file1.txt
+ls -l file1.tx
+
+chmod o+w file1.txt
+ls -l file1.tx
+
+number 
+chmod 777 file1.txt
+ls -l file1.tx
+chmod 756 file1.txt
+ls -l file1.tx
+
+chmod 556 file1.txt
+ls -l file1.tx
+open file is nano file1.txt
+
+chmod 756 file1.txt
+ls -l file1.tx
+open file is nano file1.txt
+sudo cat /etc/group
+
+sudo gropadd dev
+sudo grep dev /etc/group
+sudo gpasswd  -a kramesh dev
+sudo grep dev /etc/group
+sudo chown :dev file1.txt
+ls -l file1.tx
+sudo chgrp kramesh file1.txt
+ls -l file1.tx
+sudo chown kramesh1 file1.txt
+nano  file1.tx
+ls
 
 
 -----------------------------------------------------------------------------------------------------------
-    
-       
+
+** --------
+ls listing files
+ls -l
+ls -lh
+-F
+ls
+-R
+cd Documents
+touch 1.txt 2.txt
+clear
+cd ..
+ls -R
+--version
+
+
  
