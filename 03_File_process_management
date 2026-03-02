@@ -1,0 +1,80 @@
+file in Unix
+
+files   
+      ex  scripts, pxp
+  -rw-rw-r--.test.txt
+directories
+    ex dir
+drw-rw-r--.test
+exectables
+   ex  files like exectables browsers
+ drw-xx-x--ls
+processes
+   ex  is files 
+dr-xr-xr-x. 9kramesh
+
+Everything in Linux & unixis files
+------------------------------------------------------
+Unix process control commands
+a command issued in unix/linux start a new process, which invokes a 5 digit unique id is pid
+
+
+INITIALIZING A PROCESS
+ A process can be initialized in two ways, foreground and background
+    Foreground
+         Every process runs in foreground by default when it is started
+         $ ls pwd
+    Background
+        Runs in the background allowing other processes to run in parallel
+         $ pwd &
+         ls || pwd &
+         ls && pwd &
+
+TRACKING A PROCESS 
+ps - current running process
+ps aux - all running process
+
+STOPPING A PROCESS
+
+ps -u kramesh      --is running the process
+
+---to stop process
+  ping google.com
+  ctr-c
+kill -i list of signals
+  cat &        -- if add command along & check running the background 
+  kill -9 9995(id)
+  kill -9 9399(id)
+
+OTHER PROCESSES
+
+top        will show the intractive running process with the working the lunix
+ add sudo su for super user
+ cat &
+ kill -9 id 
+
+
+nice        -20 to 19 higes peroirity 20
+    add sudo su for super user
+    nice-19 [command]  nice -19 cat &
+    ps -l
+    nice--19[command]  nice -19 cat &
+    ps -l
+    kill -9 [pid]
+    ps -l
+
+renice [nice value] [process id]
+    renice -10 cat &
+    renice -[processid] [pid]
+    renice -19 [pid]
+    ps -l
+    renice -10 11988 
+    ps -l
+
+df disc command
+boot is start the system
+  
+
+
+
+
