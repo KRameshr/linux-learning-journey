@@ -54,7 +54,7 @@ top        will show the intractive running process with the working the lunix
  kill -9 id 
 
 
-nice        -20 to 19 higes peroirity 20
+nice        -20 to 19 higes peroirity 20  A higher nice value corresponds to a lower scheduling priority.
     add sudo su for super user
     nice-19 [command]  nice -19 cat &
     ps -l
