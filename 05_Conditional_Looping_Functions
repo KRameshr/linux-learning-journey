@@ -1,1 +1,42 @@
 //
+If, 
+If [Condition]
+then
+Statements
+fi
+
+If else, 
+If [Condition]
+then
+Statements
+else
+Statements
+fi
+
+
+Else If ladder
+if [ condition1 ]
+then
+Statements
+elif
+[ condition2
+then
+Statements
+else
+Statements
+fi
+
+
+Nested If statements
+
+if [ condition1 ]
+then
+Statements
+else
+then
+If [ condition2 ]
+Statements
+else
+then
+Statements
+fi
