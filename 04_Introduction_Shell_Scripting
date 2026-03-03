@@ -27,7 +27,6 @@ provided the excution permission
 
 anothr way 
   vim demo2.sh
-
       #!/bin/bash
       pwd
       ps
@@ -39,8 +38,135 @@ anothr way
   ls
   ./demo2.sh
 
+vim demo2.sh
+   #!/bin/bash
+      pwd
+      echo hello world
+sh demo2.sh
+bash demo2.sh
+./demo2.sh
+
+nano demo3.sh
+   #!/bin/bash
+   ./demo2.sh
+cat demo3.sh
+ls -l demo3.sh
+povide the exit permission
+chmod +x demo3.sh
+
+nano demo2.sh
+   #!/bin/bash
+   ./demo2.sh
+ ./demo2.sh infinit ctr +c
+
 2 WRITING A SHELL SCIPT
 
 3 CHANGE THE PERMISSION
 
 4 EXECUTE THE SCRIPT
+
+-----------------------------
+Environment varibale
+Environment variables are used to store some values in a shell script  shell script globally
+Local   Can be used locally in the shell where it is defined
+Global  Can be used in any running process or shell script globally
+
+
+1 defining a local variable
+2 ACCESSING A VARIABLE
+3 REMOVING ENVIRONMENT VARIABLE
+4 DEFINING A GLOBAL VARIABLE
+
+  Define the local variable as shown below
+ 
+
+env 
+env | sort | head -10
+pwd
+
+
+$[variable_name] = [value]
+var1 = "local variable"
+echo $var1
+another bash 
+bash 
+echo $var1
+exit
+to make global varibale use export
+export var1
+bash 
+echo $var1
+env | grep var1
+printenv 
+
+cd ..
+cd /var
+ls
+ Home
+cd $HOME
+ls
+pwd
+env | grep HOME
+echo $var1
+unset  var1
+echo $var1
+env | grep var1
+
+shell script used in an automation automationtask copy a file 
+
+---------------------------------------
+User input
+
+use read command to store the user input in a variable
+
+1 TAKING USER INPUT Use read command to store the user input in a variable
+
+2 WRITING A SCRIPT TO TAKE USER INPUT 
+
+read var1
+Hello world
+echo $ var1
+
+now create shell script
+nano useinput.sh  want to remove rm userinput.sh
+ls 
+  in nano useinput.sh  
+      #!/bin/bash  -- is  shaban header
+      echo plese enter your name
+      read name
+      echo "Wellocome mister" $name
+ save 
+chomod +x useinput.sh
+./useinput.sh
+ enter name 
+
+
+nano  add.sh
+!#/bin/bash
+echo "enter 2 number"
+read num1
+read num2
+echo $((num1+num2))
+chomod +x  add.sh
+./add.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
