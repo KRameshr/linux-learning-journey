@@ -1,1 +1,46 @@
 //
+
+A shell is a program that provides an interface between the user and the kernel of the operating system
+grep is a script file
+lunix is sequence is operation
+
+tupe of shell
+
+Bourne Shell (sh)                                 /bin/sh and / sbin sh
+C Shell(csh)                                      /bin/csh
+Korn Shell(ksh)                                   /bin/ksh
+Bourne AgainShell(bash) is automic installed       /bin/bash
+
+Working in a Shell Script
+
+1 CREATING A SHELL SCRIPT
+
+vi hello_scipt.sh
+
+vim demoscipt.bash
+sudo  ./demoscript.bash
+ls-l  demoscript.bash
+provided the excution permission
+    chmod x+ demoscript.bash
+    ls-l  demoscript.bash
+    sudo  ./demoscript.bash
+
+anothr way 
+  vim demo2.sh
+
+      #!/bin/bash
+      pwd
+      ps
+      echo hello world
+      ls -l
+  save file
+  ./demo2.sh
+  chmod x+ demo demo2.sh demoscript.bash
+  ls
+  ./demo2.sh
+
+2 WRITING A SHELL SCIPT
+
+3 CHANGE THE PERMISSION
+
+4 EXECUTE THE SCRIPT
