@@ -4,7 +4,7 @@
 ├── 02_file_management
 ├── 03_file_process_management
 ├── 04_Introduction_Shell_Scripting
-├── 05_networking_basics.md
+├── 05_Conditional_Looping_Functions
 ├── 06_package_management.md
 ├── 07_shell_scripting_basics.sh
 ├── 08_ssh_and_remote_access.md
