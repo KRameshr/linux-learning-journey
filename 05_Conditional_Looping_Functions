@@ -40,3 +40,135 @@ else
 then
 Statements
 fi
+
+
+
+looping statments
+
+--while loop
+  if the given command is TRUE loop executes if Fales comes out of loop
+while [command]
+do
+  satement
+done
+
+
+
+cout=1
+while [ $cout -le 5 ]
+do 
+  echo $count
+  ((cont++))
+done
+
+--until loop
+  same as while but it will loop until the test case becomes true
+until [test case]
+do
+  satement
+done
+
+echo "Enter a number count"
+read count
+until [ $cout -ge 5 ]
+do 
+  echo $count
+  ((cont++))
+done
+
+
+--for loop
+   it uses a given set of data to iteration until the given command is false
+
+pets  = "dog cat parrot"
+for per in $pets
+do 
+ echo $pet
+done
+
+
+flow control statements
+
+--break 
+ tells bash to leave the loop whenever it encounters a break statement 
+
+cout=1
+while [ $cout -le 15 ]
+do 
+echo $count
+((cont++))
+if [ $count == 6 ]
+then
+echo "break"
+break
+fi
+done
+
+continue
+ tells bash to stop the current iteration and start a new iteration altogether 
+cout=1
+while [ $cout -le 15 ]
+do 
+echo $count
+((cont++))
+if [ $count == 6 ]
+then
+echo "break"
+continue
+fi
+done
+
+
+switch
+
+case word in
+pattern1)
+Statement(s)
+;;
+pattern2)
+Statement(s)
+;;
+pattern3)
+Statement(s)
+;;
+*)
+Default Statement(s)
+;;
+esac
+
+
+
+#!/bin/bash
+
+echo "Enter a number"
+read num
+case $num in
+
+[0-9])
+echo "single one"
+;;
+
+[0-9][0-9])
+echo "double digt"
+;;
+[0-9][0-9][0-9])
+echo "finally 3 digit"
+;;
+[a-z])
+echo "lower Case"
+;;
+
+*)
+echo "This is bigerNumber or empty "
+;;
+esac
+
+
+
+--------------------------------------------------------------------
+Functions
+
+
+
+
+
