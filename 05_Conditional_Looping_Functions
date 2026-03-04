@@ -167,8 +167,64 @@ esac
 
 --------------------------------------------------------------------
 Functions
+A function is set of commands under a function name which is executed when the name is called
+1 Reuse the code
+2 We can test in parts
+3 Can use variables according to scope
+4 Code is in sub steps
+5 Better readability
+
+use the function  keyword
 
 
+function hello {
+echo "Hello"
+echo "How are you"
+}
+hello 
+
+bash
+ hello show error beacause function exit local shell 
+
+another way 
+
+hello () {
+  echo "hello"
+}
 
 
+function with parameters
+function multi {
+a = $1
+b = $2
+multi =$((a*b))
+echo $multi
+}
+
+
+Calling a function from another file
+
+nano demoforfunc.sh
+#!/bin/bash
+add (){
+ echo "Enter 2 Number"
+ read a
+ read b
+sum = $((a + b))
+echo $sum
+}
+
+sub()
+echo "Enter 2 number"
+read a
+read b
+dif = $((a-b))
+echo $dif
+
+if[$1 == add]
+then
+add
+else
+sub 
+fi 
 
