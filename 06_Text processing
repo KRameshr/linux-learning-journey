@@ -54,6 +54,21 @@ awk -f awk-1 data.csv is printed
 
 ------------------------------
 Mount and unmount a file
+shared folder
+
+mkdir ~/share
+ls 
+
+mount
+
+sudo mount -t vboxsf share ~/share
+
+mv 1.txt /home/kramesh/share
+ls
+
+cd ~/share
+ls
+
 
 
 
