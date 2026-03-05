@@ -13,3 +13,56 @@ SED Command
 SED is a stream editor. It serves the purpose of modifying the texts in the stream according to the given pattern.
 
 AWK Command
+awk is mostly used for transforming data files and producing formatted reports
+$ awk options 'selection criteria {action}' input file > output file
+
+
+nano data.csv
+ID      Date  Services Status
+1 2019-2-10 httpd ok
+2 2019-2-10 nginx ok
+3 2019-2-10 httpd warning
+4 2019-2-10 nginx warning
+5 2019-2-10 httpd ok
+6 2019-2-10 hginx ok
+
+cat data.csv
+awk '{print}' data.csv
+   awk '{print$0}' data.csv all the records
+awk '/pattern/{print$0}' data.csv all the matches records
+   awk '/nginx/{print$0}' data.csv 
+   awk '{print NR,$0}' data.csv all the lines rows
+awk '{print Nf,$0}' data.csv all the columns
+Formatting output with Output Record Separator (ORS)
+awk 'BEGIN{ORS="\n\n"}{print $0}' data.csv
+awk 'BEGIN{ORS="\n\t"}{print $0}' data.csv
+awk 'BEGIN{ORS="\n\n"}{print $0}' data.csv
+
+Formatting output fields with Output Field Separator (OFS)
+awk 'BEGIN{OFS="--"}{print $1,$2}' data.csv
+awk 'BEGIN{OFS="  "}{print $1,$2}' data.csv
+awk 'BEGIN{OFS="sep"}{print $1,$2}' data.csv
+
+crete 
+nano awk-1
+BEGIN {ORS=="\n\n"}
+{print $0}
+
+awk -f awk-1 data.csv is printed
+
+
+
+------------------------------
+Mount and unmount a file
+
+
+
+
+
+
+
+
+
+
+
+
