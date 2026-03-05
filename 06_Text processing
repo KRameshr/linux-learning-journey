@@ -1,1 +1,8 @@
 //
+GREP command
+
+GREP stands for Global Regular Expression Print. It is a powerful pattern search tool
+
+To search and filter   out matches   A regular expressionis a sequence of characters that define a search pattern
+$ grep ‘regular expression’ [filename]
+How to use grep command to search a pattern of string from a file?
