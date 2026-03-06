@@ -71,6 +71,22 @@ ls
 
 
 
+Sort command
+nano animal.txt
+cat animal.txt
+sort animal.txt
+
+
+pipes
+allow us to add text processing filters
+ 
+sed '/^$/d' animals.txt | sort
+sed '/^$/d' animals.txt | sort | grep s
+sed '/^$/d' animals.txt | sort | grep [a-z][0-9]
+
+
+
+
 
 
 
