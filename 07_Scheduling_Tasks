@@ -51,5 +51,67 @@ cd $HOME
 ls
 
 
+-----------------------------------
+Cron and Crontab
+
+Cron daemon is a long running process that executes commands at specific dates and times. We can use this to schedule activities, either as one time events or as recurring tasks.
+ 
+Here’s what the cron job definition looks like
+┌───────────── minute (0-59)
+│ ┌───────────── hour (0-23)
+│ │ ┌───────────── day of the month (1-31)
+│ │ │ ┌───────────── month (1-12)
+│ │ │ │ ┌───────────── day of the week (0-6)
+│ │ │ │ │
+│ │ │ │ │
+│ │ │ │ │
+* * * * * command to execute
+
+hands-on display cron job status every minute
+
+create two files
+
+touch file1.txt file2.txt
+nano file1.txt
+
+add the content in file1.txt
+cat file1.txt
+
+create a scripy file 
+nano cronjob1.sh
+#!/bin/bash 
+cat /home/kramesh/file1.txt > /home/kramesh/file2.txt
+
+
+chomd +x cronjob1.sh
+ls -l check file permission
+crontab -e
+  i
+  * * * * * /home/kramesh/cronjob1.sh
+  :wq
+
+ ls
+cat file2.txt 
+rm   file2.txt 
+date
+
+after 1 mint
+it crete   file2.txt  thats cronjob1
+ls
+cat  file2.txt 
+
+crontab -e
+ 54 * * * * /home/kramesh/cronjob1.sh
+crontab -l
+crontab -u kramesh -l
+
+
+
+
+
+
+
+
+
 
 
