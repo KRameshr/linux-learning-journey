@@ -106,7 +106,54 @@ crontab -l
 sudo crontab -u kramesh -l
 
 
+at command 
 
+at 
+at now +1 minute  is 12pm
+at now +1 minute  
+touch atexe.txt
+echo "Hello world" > atexe.txt
+ctr+D            is end of trastion 
+
+atq             will check the seduling 
+ls
+cat atexe.txt
+
+toremove
+atq
+2 Mon feb 10 
+atrm  2
+atq
+
+at noon
+touch 2.txt
+ctr+D
+atq
+
+at midnight
+touch mid.txt
+ctr+D
+atq
+
+at mon
+touch mid.txt
+ctr+D
+atq
+
+
+at mon +3 hours
+pwd
+ctr+D
+atq
+
+at mon +3 years
+pwd
+ctr+D
+atq
+
+
+atrm numbers 
+atrm 1 2 3 4
 
 
 
