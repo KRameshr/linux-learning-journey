@@ -103,7 +103,7 @@ cat  file2.txt
 crontab -e
  54 * * * * /home/kramesh/cronjob1.sh
 crontab -l
-crontab -u kramesh -l
+sudo crontab -u kramesh -l
 
 
 
