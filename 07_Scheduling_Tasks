@@ -1,1 +1,55 @@
 /// 
+
+What are Daemons?
+
+A daemon is a long running background process, that neither has to be controlled directly by an user or to need to wait to get activated by the occurance of a specific event or condition.
+In Unix, the names of daemons conventionally end in "d". 
+
+Some examples include
+
+inetd(internet service daemon ),
+httpd(Hypertext Transfer Protocol daemon),
+ftpd(FTP Server Daemon),
+crond(Cron Daemon), etc
+
+installed the httpd
+sudo yum install httpd
+ps aux
+ps aux | grep httpd 
+top
+
+Start
+services httpd status
+services httpd start
+services httpd status
+cd $HOME
+ps aux | grep httpd 
+top 
+
+Stop
+services httpd stop
+
+Restart
+services httpd restart
+
+Status
+services httpd status
+
+cd /
+cd var
+cd www
+ls
+cd html
+ls
+creat a nano index.html  or sudo nano index.html save it refresh the fire fox bowser in centos
+
+creat another   sudo nano 1index.html
+ls
+save it refresh the fire fox bowser in centos http://localhost/1index.html
+sudo rm  1index.html  index.html
+cd $HOME
+ls
+
+
+
+
