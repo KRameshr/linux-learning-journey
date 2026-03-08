@@ -1,1 +1,22 @@
 ///
+
+Why Monitoring?
+To prevent failures by detecting them before they can affect the server
+
+Are you monitoring your server?
+    Issues detected
+Fixing them Do not know what are the issues
+
+Process Monitoring
+
+•Any application running on the OS is a process
+•To monitor those processes effectively we can use tools which are available in the OS
+
+tools 
+ top      Top is an interactive process monitoring tool which is pre installed inmost of the Linux systems
+ PS      Ps is short for Process Status. It provides a status report of processes at the time when the command is run
+ htop    Htop is a similar tool to top but more colorful  and interactive
+ pgrep   Pgrep is used to search for process which are currently running in the system
+
+top 
+ps a
