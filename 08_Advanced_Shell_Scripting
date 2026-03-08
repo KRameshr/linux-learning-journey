@@ -19,4 +19,11 @@ tools
  pgrep   Pgrep is used to search for process which are currently running in the system
 
 top 
-ps a
+htop
+ps aux | grep httpd > hello.txt
+pgrep  firefox
+will get process id
+kill -9 process_Id
+
+File & Folder Monitoring
+Monitoring tool inotifywait
