@@ -25,5 +25,9 @@ pgrep  firefox
 will get process id
 kill -9 process_Id
 
-File & Folder Monitoring
+File & Folder Monitoring is directory
+
 Monitoring tool inotifywait
+
+sudo yun i inotify-tools -y
+
