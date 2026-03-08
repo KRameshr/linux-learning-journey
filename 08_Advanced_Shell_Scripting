@@ -31,3 +31,46 @@ Monitoring tool inotifywait
 
 sudo yun i inotify-tools -y
 
+
+one terminal 
+mkdir monitordir
+cd  monitordir
+touch 1.txt
+nano 1.txt
+hello 
+save
+cat 1.txt
+
+
+anther  terminal
+inotifywait -m Monitordir
+
+
+
+free 
+free -m will get free memory 
+
+
+------------------------
+signals
+
+A signal is a message sent by the OS or a running application to our program. It is sent to indicate that a significant event has occurred
+
+kill-l  Lists all the available signals
+
+pgrep -a terminal
+pgrep -a bash
+id
+kill -2 id
+kill -l 
+
+
+Trapping Signals
+
+When a running process is interrupted, it might get aborted even before completing clean ups.
+So, you may end up leaving a bunch of temporary files that won't get cleaned up. Trapping
+these signals are easy and a good way to deal with it.
+
+ls
+
+
