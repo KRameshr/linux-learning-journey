@@ -73,4 +73,99 @@ these signals are easy and a good way to deal with it.
 
 ls
 
+-------------------------------
 
+trap and singnals
+
+nano eleif.sh
+
+#!/bin/bash
+tarp '' 2
+echo "Enter a Two number"
+read a
+read b
+if [ $a == $b ]
+then
+echo "they are eqaul"
+elif [ $a -lt $b ]
+then
+echo "b is larger"
+then
+echo "a is larger"
+else
+echo "if none of this condition passes"
+fi
+tarp - 2
+echo "Enter a two number"
+read c
+read d
+echo $c $d
+
+./eleif.sh
+
+ctr+c unstop
+ctr+Z will stop
+
+nano eleif.sh
+#!/bin/bash
+echo "Enter a Two number"
+read a
+read b
+if [ $a == $b ]
+then
+echo "they are eqaul"
+elif [ $a -lt $b ]
+then
+echo "b is larger"
+then
+echo "a is larger"
+else
+echo "if none of this condition passes"
+fi
+
+echo "Enter a two number"
+read c
+read d
+echo $c $d
+
+./eleif.sh
+
+ctr+c unstop
+ctr+Z will stop
+
+
+
+
+Here's the text from the notepad:
+
+1. Running a important script? Don't want anyone to interrupt it? add this to the top of the script
+bashtrap '' 2
+# or
+trap '' SIGINT
+After that, if it less important lines in the script, use this to bring back SIGINT
+bashtrap - 2
+# or
+trap - SIGINT
+
+2. Put this at the top of the script and it will delete the fail when the script is stopped
+bashtrap "rm -f $filename" EXIT
+
+3. To catch SIGINT until the count is over
+bashint_count=0
+
+function stop_it()
+{
+    let int_count++
+    echo
+    if [[ $int_count == 1 ]]; then
+        echo "I am not going to quit"
+    elif [[ $int_count == 2 ]]; then
+        echo "If you do that again, ill exit"
+    elif [[ $int_count == 3 ]]; then
+        echo "You are fooled!"
+    else
+        echo "Bye"
+        exit
+    fi
+}
+15:30
