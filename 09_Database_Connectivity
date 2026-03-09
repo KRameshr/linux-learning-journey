@@ -1,9 +1,15 @@
 // 
 installing MySQL
-
+sudo dnf install @ mysql
+sudo dnf install mysql-server -y
+sudo dnf install mysql-server -y
+If that doesn't work, install MariaDB (MySQL compatible):
+bashsudo dnf install mariadb-server -y
+sudo systemctl start mariadb
+sudo systemctl enable mariadb
+Then secure it:
+bashsudo mysql_secure_installation
 connecting MySQl from terminal
 
-Running SQL Queries form shell scripts
 
-Generating Reports and storing
 
