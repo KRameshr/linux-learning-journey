@@ -8,7 +8,7 @@
 ├── 06_Text processing
 ├── 07_Scheduling_Tasks
 ├── 08_Advanced_Shell_Scripting
-├── 09_apache_configuration.md
+├── 09_Database_Connectivity
 ├── 10_lamp_stack_setup.md
 ├── troubleshooting_scenarios.md
 └── README.md
