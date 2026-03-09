@@ -9,7 +9,7 @@
 ├── 07_Scheduling_Tasks
 ├── 08_Advanced_Shell_Scripting
 ├── 09_Database_Connectivity
-├── 10_lamp_stack_setup.md
+├── 10_Linux_Networking
 ├── troubleshooting_scenarios.md
 └── README.md
 ```
