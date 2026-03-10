@@ -1,1 +1,19 @@
 //
+What is Networking in Linux?
+
+A group of interconnected computers are called as a Network; Working on networks and handling them would be called as Networking
+
+A system administrator’s routine tasks include configuring, maintaining, troubleshooting, and managing servers and networks within data centers. There are numerous tools and utilities in Linux designed for theadministrative purposes.
+
+
+
+1. Configuring
+2. Maintaining
+3. Troubleshooting
+4. Managing servers & networks
+
+ifconfig & ping
+wget & curl
+SSH
+
+
