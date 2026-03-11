@@ -1,0 +1,13 @@
+User Browser
+     |
+     v
+Apache Web Server
+     |
+     v
+PHP Interpreter
+     |
+     v
+MariaDB Database
+     |
+     v
+WordPress Application
