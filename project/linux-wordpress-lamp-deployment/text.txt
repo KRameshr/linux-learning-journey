@@ -1,0 +1,47 @@
+ Resume Project Description
+
+Add this in your Projects section.
+
+Project Title
+
+WordPress Deployment on Linux Server using LAMP Stack
+
+Description
+
+• Deployed a WordPress website on a Linux server using the LAMP stack (Linux, Apache, MariaDB, PHP).
+• Installed and configured Apache web server and MariaDB database.
+• Configured PHP environment and integrated it with Apache.
+• Downloaded and deployed WordPress in the web root directory.
+• Configured database connectivity and file permissions for secure access.
+• Successfully accessed and managed the WordPress dashboard through the browser.
+
+
+“I completed a hands-on project where I deployed a WordPress website on a Linux server using the LAMP stack. First,
+I installed and configured Apache as the web server, then installed MariaDB and created a database for WordPress. After that, 
+I installed PHP and required modules to connect the web server with the database. I downloaded WordPress, deployed it in the Apache web root directory, 
+configured permissions, and completed the setup through the browser. Finally,
+I accessed the WordPress admin dashboard and verified that the website was running successfully.”
+
+
+
+“I deployed WordPress on a Linux server using the LAMP stack by configuring Apache, MariaDB, and PHP,
+setting up the WordPress database, and completing the installation through the browser.”
+
+️ 
+Skills You Can Add to Resume
+
+Add these skills now:
+
+Linux Administration
+
+Apache Web Server
+
+MariaDB / MySQL
+
+PHP Basics
+
+WordPress Deployment
+
+LAMP Stack
+
+Server Configuration
